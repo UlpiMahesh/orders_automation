@@ -1,0 +1,83 @@
+{
+  "ARIZONA": {
+    "market": "ARIZONA",
+    "status": "active",
+    "converter": "standard",
+    "input_pattern": "*.xlsx",
+    "description": "Market converter is available in the uploaded source project.",
+    "aliases": [
+      "PHOENIX"
+    ],
+    "login_market": "PHOENIX"
+  },
+  "CORPUS": {
+    "market": "CORPUS",
+    "status": "active",
+    "converter": "standard",
+    "input_pattern": "*.xlsx",
+    "description": "Market converter is available in the uploaded source project."
+  },
+  "DALLAS": {
+    "market": "DALLAS",
+    "status": "active",
+    "converter": "dallas",
+    "input_pattern": "*.xlsx",
+    "description": "Dallas workbook contains DALLAS, PARIS and LUFKIN tabs; output Market is DALLAS."
+  },
+  "HOUSTON": {
+    "market": "HOUSTON",
+    "status": "not_configured",
+    "converter": null,
+    "input_pattern": null,
+    "description": "Folder placeholder only; conversion logic has not been confirmed."
+  },
+  "LAREDO": {
+    "market": "LAREDO",
+    "status": "not_configured",
+    "converter": null,
+    "input_pattern": null,
+    "description": "Folder placeholder only; conversion logic has not been confirmed."
+  },
+  "LUFKIN": {
+    "market": "LUFKIN",
+    "status": "included_in_dallas_workbook",
+    "converter": null,
+    "input_pattern": null,
+    "description": "Lufkin is processed as part of the Dallas workbook and is not a standalone converter."
+  },
+  "RGV": {
+    "market": "RGV",
+    "status": "not_configured",
+    "converter": null,
+    "input_pattern": null,
+    "description": "Folder placeholder only; conversion logic has not been confirmed."
+  },
+  "SA": {
+    "market": "SA",
+    "status": "not_configured",
+    "converter": null,
+    "input_pattern": null,
+    "description": "Folder placeholder only; conversion logic has not been confirmed."
+  },
+  "TAMPA": {
+    "market": "TAMPA",
+    "status": "active",
+    "converter": "standard",
+    "input_pattern": "*.xlsx",
+    "description": "Market converter is available in the uploaded source project."
+  },
+  "TULSA": {
+    "market": "TULSA",
+    "status": "active",
+    "converter": "standard",
+    "input_pattern": "*.xlsx",
+    "description": "Market converter is available in the uploaded source project."
+  },
+  "WACO": {
+    "market": "WACO",
+    "status": "active",
+    "converter": "standard",
+    "input_pattern": "*.xlsx",
+    "description": "Market converter is available in the uploaded source project."
+  }
+}

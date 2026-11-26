@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+.buildvenv/
+build/
+dist/
+dist-installer/
+*.egg-info/
+.pytest_cache/
+# never commit credentials or business data
+marketlogins*.xlsx
+.env
